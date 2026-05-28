@@ -74,4 +74,3 @@ The traffic controller operates using a four-state finite state machine (FSM) dr
 
 The FSM continuously cycles through these states to ensure safe and efficient traffic movement through the T-junction.
 
-The FSM continuously cycles through these states to ensure safe and efficient traffic movement through the T-junction.
