@@ -66,10 +66,10 @@ The traffic controller operates using a four-state finite state machine (FSM) dr
 ### State Summary
 
 | State | Active Signals | Duration |
-|-------|-----------------|----------|
-| S0 | C Straight GREEN | 0–40 sec |
+|--------|----------------|----------|
+| S0 | A Straight GREEN + C Straight GREEN | 0–40 sec |
 | S1 | A Left GREEN + B Right GREEN | 40–60 sec |
-| S2 | C Right GREEN + B Left GREEN | 60–80 sec |
+| S2 | B Left GREEN + C Right GREEN | 60–80 sec |
 | S3 | All RED (Pedestrian Crossing) | 80–90 sec |
 
 The FSM continuously cycles through these states to ensure safe and efficient traffic movement through the T-junction.
